@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:700|Source+Sans+Pro:400,700">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <title>CS 145</title>
+</head>
+
+<body>
+  <section>
+    <div class="header">
+      <h1>CS 145</h1>
+      <h2>Data Management and Data Systems</h2>
+      <h2>Fall 2018</h2>
+    </div>
+
+    <div class="links">
+      <table>
+        <tr>
+          <th width=50%><a href="index.html">Home</a></th>
+          <th><a href="course_info.html">Course Info</a></th>
+        </tr>
+      </table>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="schedule">
+      <table>
+        <tr>
+          <th>Event</th>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Course Materials</th>
+        </tr>
+        <tr>
+          <td>Lecture 1</td>
+          <td>9/25 Tu</td>
+          <td>
+            <b>Relational Data Model</b>
+            <br><i>Concepts: data models, database management system overview</i>
+          </td>
+          <td>
+            [<a href="https://docs.google.com/presentation/d/1T_rzKgCi_qZ0Twb0IqJNthsBalAAib5ajdPVNyJPtXU/edit?usp=sharing">Slides: Intro, Why databases?</a>]
+            <br>[<a href="https://docs.google.com/presentation/d/1YdXOGIaGXfIEgzB72XISyCTwZ06FEoQuElUAdwBAAxg/edit?usp=sharing">Slides: Relational Data Model</a>]
+            <br>[<a href="https://docs.google.com/presentation/d/1Fi21H06dzlRU6I7k9vIZyWujedI8pqCILEus24-iOAg/edit?usp=sharing">Class Projects Outline</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 2</td>
+          <td>9/27 Th</td>
+          <td>
+            <b>SQL I</b>
+            <br><i>Concepts: schemas, select from where</i>
+            <br>HW: 6a, 6e
+          </td>
+          <td>
+            [<a href="https://docs.google.com/presentation/d/1wVU8ybb9Zxyno3MpQA-vnGTX7bBD5bliysigxGIYAcI/edit?usp=sharing">Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Project 1 Release</td>
+          <td>10/1 Mon</td>
+          <td>
+            See Course Info for general submission information and the regrade policy.
+          </td>
+          <td>
+            [<a href="docs/project_part1.pdf" download>project_part1.pdf</a>]
+            <br>[<a href="docs/project1_submission.py" download>project1_submission.py</a>]
+            <br>[<a href="https://docs.google.com/document/d/1MeMqVe4iFcxRGEm9CX7LZusFzquTHZWYwIoG5ahORW4/edit?usp=sharing" target="_blank">Getting started with BigQuery</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 3</td>
+          <td>10/2 Tu</td>
+          <td>
+            <b>SQL II</b>
+            <br><i>Concepts: joins, set operators, subqueries</i>
+            <br>HW: 6d, 6g, lab 2
+          </td>
+          <td>
+            [<a href="https://docs.google.com/presentation/d/18sWsOAGG5ygjhKWBCob4TBsuCUJDgtqCmo6IKefpfhQ/edit?usp=sharing">Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 4</td>
+          <td>10/4 Th</td>
+          <td>
+            <b>SQL III and ER Models</b>
+            <br><i>Concepts: grouping and aggregations, nested queries, quantifiers, nulls, nested queries</i>
+            <br>HW: 6b, 6c, 6f, lab 1
+          </td>
+          <td>
+            [<a href="https://docs.google.com/presentation/d/1c-UiBDNuTd5LrGhtfGSj8_CZOjWrIXax4R2fzHSmIlM/edit?usp=sharing">E/R Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 5</td>
+          <td>10/9 Tu</td>
+          <td>
+            <b> Design Theory I </b>
+            <br><i>Concepts: Normal forms, functional dependencies, closures, superkeys, keys</i>
+            <br>HW: 3a, 3b
+          </td>
+          <td>
+            [<a href="https://docs.google.com/presentation/d/1ZLtBj2qpUruyJmJaJmpjUP3DGLLbHKZt3ADerRlyp3U/edit?usp=sharing">Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 6</td>
+          <td>10/11 Th</td>
+          <td>
+            <b> Design Theory II </b>
+            <br><i>Concepts: Decomposition, BCNF, 3NF, MVDs</i>
+            <br>HW: 3c, 3d
+          </td>
+          <td>
+            [See lecture 5 slides]
+          </td>
+        </tr>
+        <tr>
+          <td>Project 1 Due</td>
+          <td>10/12 Fri</td>
+          <td>
+            <b></b>
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 7</td>
+          <td>10/16 Tu</td>
+          <td>
+            <b>Transactions I </b>
+            <br><i>Concepts: Performance, ACID, Logging</i>
+            <br>HW: <a href="https://docs.google.com/document/d/1v8PVCdE1iZEBCCBtJfHdCbxRFNMu2mIHKYtyw7q5vFk/edit?usp=sharing">TXN HW 1-6</a>
+          </td>
+          <td>
+            [<a href="https://docs.google.com/presentation/d/1IgVQfGucp2OD2EGp0SnXAif0Z7jptWlvNpAufbdTOp4/edit?usp=sharing">Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Project 2 Release</td>
+          <td>10/17 We</td>
+          <td>
+          </td>
+          <td>
+            [<a href="docs/Project2_Handout.pdf" download>Project2_Handout.pdf</a>]
+            <br>[<a href="https://colab.research.google.com/drive/1asMZjcxwBqGpurcPOZ6pmtdUaXipWdmX">project2_world_bank.ipynb</a>]
+            <br>[<a href="https://colab.research.google.com/drive/1nOVlT8TL0SE1eS2uLDUyLf4Yrna93ifz">project2_github.ipynb</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 8</td>
+          <td>10/18 Th</td>
+          <td>
+            <b>Transactions II</b>
+            <br><i>Concepts: conflict serializability, locking</i>
+            <br>HW: <a href="https://docs.google.com/document/d/1v8PVCdE1iZEBCCBtJfHdCbxRFNMu2mIHKYtyw7q5vFk/edit?usp=sharing">TXN HW 7-8</a>
+          </td>
+          <td>
+            [See lecture 7 slides]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 9</td>
+          <td>10/23 Tu</td>
+          <td>
+            <b>1. Trasactions III </b>
+            <br><b>2. Guest Lecture: Machine Learning and GIS in BigQuery</b>
+            <br><i>Dr. Lak Lakshmanan, tech lead google cloud</i>
+            <br>HW: <a href="https://docs.google.com/document/d/1v8PVCdE1iZEBCCBtJfHdCbxRFNMu2mIHKYtyw7q5vFk/edit?usp=sharing">TXN HW 9-10</a>
+          </td>
+          <td>
+            [Transactions III: See lecture 7 slides]
+            <br>[<a href="https://docs.google.com/presentation/d/10jDyG1TgwB30aNYUdhd9oe7SIQBKkmLMF0Gbq4OU5F0/edit?usp=sharing">Machine Learning and GIS in BigQuery</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 10</td>
+          <td>10/25 Th</td>
+          <td>
+            <b>1. Transactions IV</b>
+            <br><b>2. Guest Lecture</b>
+            <br><i>Dr. Krishnakumar, CTO Delta Airlines</i>
+            <br>HW: <a href="https://docs.google.com/document/d/1v8PVCdE1iZEBCCBtJfHdCbxRFNMu2mIHKYtyw7q5vFk/edit?usp=sharing">TXN HW 11-13</a>
+          </td>
+          <td>
+            [Transactions IV: See lecture 7 slides]
+            <br>[<a href="https://drive.google.com/file/d/1Z-lAeB8Oc8Gvh2mcL0V7SgZurY_qZSe_/view?usp=sharing">Delta Airlines</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 11</td>
+          <td>10/30 Tu</td>
+          <td>
+            <b>Exam Review</b>
+            <br><i></i>
+          </td>
+          <td>
+            [<a href=https://docs.google.com/presentation/d/15pSqn_4FJJYCbyP-f-YrwyzDVDtHke6lgaL-ceTwltQ/edit?usp=sharing>Slides (Last updated: 10/30 10:08am)</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Midterm</td>
+          <td>11/1 Th</td>
+          <td>
+            <i>In-class (4:30 - 5:50pm)</i>
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>Project 2 Due</td>
+          <td>11/5 Mo</td>
+          <td>
+            <b></b>
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>Project 3 Release</td>
+          <td>11/5 Mo</td>
+          <td>
+            <b></b>
+          </td>
+          <td>
+            [<a href="docs/Project3_Handout.pdf" download>Project3_Handout.pdf (last updated: 9:26pm Nov13th)</a>]
+            <br>[<a href="https://colab.research.google.com/drive/1S9xjm9cn6CGoy4ieBXHsDUC3ks3577jP">project3_MLwarmup.ipynb</a>]
+            <br>[<a href="https://docs.google.com/document/d/1EYdRbtsj4RkqJYbJ2Nor86aj9wLi4x4btcKv9_TlxGI/edit">High-Level P3 Project Rubric</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 12</td>
+          <td>11/6 Tu</td>
+          <td>
+            <b>Indexing & IO Model</b>
+            <br><i>Concepts: indexes intro, the buffer, external merge algorithm</i>
+            <br>HW: <a href="https://colab.research.google.com/drive/1RV8EFC7Pt8LpdoEnrn9dQEeqmpZ5Uztt">IO HW, Problem 1</a> (<a href="https://colab.research.google.com/drive/1Vby2JAFSA-eXingWgWtT_c5iKEHP_Zq8">Solutions</a>)
+          </td>
+          <td>
+            [<a href=https://docs.google.com/presentation/d/1cqWEL29CPXEATGNeQrkHVuHKNzIYTfxaxqB5MnKXQsQ/edit?usp=sharing>Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 13</td>
+          <td>11/8 Th</td>
+          <td>
+            <b>Indexing & Sorting</b>
+            <br><i>Concepts: external merge sort, B+ trees</i>
+            <br>HW: <a href="https://colab.research.google.com/drive/1RV8EFC7Pt8LpdoEnrn9dQEeqmpZ5Uztt">IO HW, Problem 1 and 3</a> (<a href="https://colab.research.google.com/drive/1Vby2JAFSA-eXingWgWtT_c5iKEHP_Zq8">Solutions</a>)
+          </td>
+          <td>
+            [<a href=https://docs.google.com/presentation/d/1Q9ZQyTtjUSbHwtcq0rmPAfUkUDTMzK0uMKUaMM37lYM/edit?usp=sharing>Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Project 3 Proposal Due</td>
+          <td>11/9 Fr</td>
+          <td>
+            <b></b>
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 14</td>
+          <td>11/13 Tu</td>
+          <td>
+            <b>1. Indexing, Hashing </b>
+            <br><b>2. Guest Lecture: Data Ethics</b>
+            <br><i> <a href=https://en.wikipedia.org/wiki/DJ_Patil>DJ Patil</a> (Chief Data Scientist in Obama's administration)</i>
+          </td>
+          <td>
+            [<a href=https://docs.google.com/presentation/d/1NNRgbAUoJ-ptQNA-A0ZIRk6B99BOTQKOj2-EzTxRc3A/edit?usp=sharing>1. Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 15</td>
+          <td>11/15 Th</td>
+          <td>
+            <b>1. Scale, Counting</b>
+            <br><b>2. Guest Lecture: Massive, real time GPS data in ride sharing</b>
+            <br><i> <a href=https://www.linkedin.com/in/theovassilakis/>Theo Vassilakis</a> (CTO of <a href=https://www.crunchbase.com/organization/grabtaxi>Grab</a>)</i>
+          </td>
+          <td>
+            [<a href="https://docs.google.com/presentation/d/1ry25mFqdc1wem_p127qxdLxD5yYQAi5WWkoqMm5IPiM/edit#slide=id.g3bfdbcd7cb_0_0">1. Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Thanksgiving -- no lecture</td>
+          <td>11/20 Tu</td>
+          <td>
+            <b></b>
+            <br><i></i>
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>Thanksgiving -- no lecture</td>
+          <td>11/22 Th</td>
+          <td>
+            <b></b>
+            <br><i></i>
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 16</td>
+          <td>11/27 Tu</td>
+          <td>
+            <b>Optimization I</b>
+            <br><i>Concepts:Nested Loop Joins, Sort-Merge Join, Hash Join & Hash Partition Join</i>
+            <br>HW: <a href="https://colab.research.google.com/drive/1RV8EFC7Pt8LpdoEnrn9dQEeqmpZ5Uztt">IO HW, Problem 2</a> (<a href="https://colab.research.google.com/drive/1Vby2JAFSA-eXingWgWtT_c5iKEHP_Zq8">Solutions</a>)
+          </td>
+          <td>
+             [<a href="https://docs.google.com/presentation/d/1c6uhf28XSSeS8MWHuWJ-aAkf-JIu7GVul9GIDeXRi3E/edit#slide=id.g3bfdbcd7cb_0_0">Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 17</td>
+          <td>11/29 Th</td>
+          <td>
+            <b>Optimization II</b>
+            <br><i>Concepts: Histograms, IO Cost Estimations </i>
+          </td>
+          <td>
+            [See Lecture 16 slides]
+          </td>
+        </tr>
+        <tr>
+          <td>Project 3 Due</td>
+          <td>11/30 Fr</td>
+          <td>
+            <b></b>
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 18</td>
+          <td>12/4 Tu</td>
+          <td>
+            <b>Systems Design</b>
+            <br><i>Concepts: RDBMS Architecture, Relational Algebra and Optimization</i>
+          </td>
+          <td>
+            [<a href="https://docs.google.com/presentation/d/129XZY0RcVCLCIwmV1alDURzzSLDqIIwL9ei1iZZVeCY/edit#slide=id.g3bfdbcd7cb_0_0">Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Lecture 19</td>
+          <td>12/6 Th</td>
+          <td>
+            <b>Final Review</b>
+            <br><i></i>
+          </td>
+          <td>
+            [<a href="https://docs.google.com/presentation/d/1LZYdX7-pT_Tgk0aAnVvb6rQ8KYtnvYOBCUOg1wcM-rA/edit#slide=id.g3bfdbcd7cb_0_0">Slides</a>]
+          </td>
+        </tr>
+        <tr>
+          <td>Final Exam</td>
+          <td>12/14 Fr</td>
+          <td>
+            <i>3:30 - 6:30 p.m</i>
+          </td>
+          <td>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="instructors">
+      <table>
+        <tr>
+          <td>
+            <h3 class="subheader">Instructor</h3>
+            <div>
+              <div><img src="images/shiva.jpg" alt="shiva"></div>
+              <div>Shiva Shivakumar</div>
+            </div>
+          </td>
+          <td>
+            <h3 class="subheader" style="text-align: left; margin-left: 20px">Teaching Assistants</h3>
+            <div>
+              <div><img src="images/jennie.jpg" alt="jennie"></div>
+              <div>Jennie Chen</div>
+            </div>
+
+            <div>
+              <div><img src="images/Jiaxi.jpg" alt="jiaxi"></div>
+              <div>Jiaxi Chen</div>
+            </div>
+
+            <div>
+              <div><img src="images/Laura.jpg" alt="laura"></div>
+              <div style="font-size: 15px">Laura Cruz-Albrecht</div>
+            </div>
+
+            <div>
+              <div><img src="images/alan.jpg" alt="alan"></div>
+              <div>Alan Flores-Lopez</div>
+            </div>
+
+            <div>
+              <div><img src="images/vishesh.jpg" alt="vishesh"></div>
+              <div>Vishesh Gupta</div>
+            </div>
+
+            <div>
+              <div><img src="images/todd.jpg" alt="todd"></div>
+              <div>Todd Macdonald</div>
+            </div>
+
+            <div>
+              <div><img src="images/leo.jpg" alt="leo"></div>
+              <div>Leo Mehr (head)</div>
+            </div>
+
+            <div>
+              <div><img src="images/lantao.JPG" alt="lantao"></div>
+              <div>Lantao Mei</div>
+            </div>
+
+            <div>
+              <div><img src="images/Ben.jpg" alt="ben"></div>
+              <div>Ben Parks</div>
+            </div>
+
+            <div>
+              <div><img src="images/amelia.png" alt="amelia"></div>
+              <div>Amelia Vu</div>
+            </div>
+
+            <div>
+              <div><img src="images/Lucy.jpg" alt="lucy"></div>
+              <div>Lucy Wang</div>
+            </div>
+
+            <div>
+              <div><img src="images/anna.jpg" alt="anna"></div>
+              <div>Anna Zhu</div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div>
+      <div class="office-hours">
+        <h3 class="subheader">Office Hours</h3>
+        All OH will be held in Huang Basement, in the large, open
+        collaboration area with desk/tables. The one exception is Prof
+        Shiva's OH, which will be held in Gates 415.
+        <br>To sign up for OH, use our queue:
+        <a href="https://queuestatus.com/queues/259">https://queuestatus.com/queues/259</a>
+
+        <br><br>
+        <iframe src="https://calendar.google.com/calendar/b/3/embed?showTitle=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=m9s25h4i5jkejs1q00695ldqqo%40group.calendar.google.com&amp;color=%23865A5A&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
