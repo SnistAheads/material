@@ -30,7 +30,8 @@ h1, h2, h3 {
 
 .links {
   max-width: 270px;
-  margin: 0 10px;
+  margin: 0 auto;
+  width: 20%;
   text-align: center;
 }
 
